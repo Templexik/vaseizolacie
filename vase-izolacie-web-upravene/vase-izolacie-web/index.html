@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Roman Richter — Vaše izolácie | Hydroizolácie plochých striech</title>
+<meta name="description" content="Hydroizolácie plochých striech, zelené strechy, terasy, balkóny a spodné stavby. Bánovce nad Bebravou a okolie.">
+<meta name="robots" content="index, follow">
+<meta name="author" content="Roman Richter — Vaše izolácie">
+<meta name="keywords" content="hydroizolácie, ploché strechy, zelené strechy, izolácia terás, izolácia balkónov, spodná stavba, Bánovce nad Bebravou">
+<link rel="canonical" href="https://www.vaseizolacie.sk/">
+<meta name="theme-color" content="#4B5A3E">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="sk_SK">
+<meta property="og:url" content="https://www.vaseizolacie.sk/">
+<meta property="og:site_name" content="Vaše izolácie — Roman Richter">
+<meta property="og:title" content="Vaše izolácie — hydroizolácie plochých striech">
+<meta property="og:description" content="Hydroizolácie plochých striech, zelené strechy, terasy, balkóny a spodné stavby. Bánovce nad Bebravou a okolie.">
+<meta property="og:image" content="https://www.vaseizolacie.sk/logo.png">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Vaše izolácie — hydroizolácie plochých striech">
+<meta name="twitter:description" content="Hydroizolácie plochých striech, zelené strechy, terasy, balkóny a spodné stavby. Bánovce nad Bebravou a okolie.">
+<meta name="twitter:image" content="https://www.vaseizolacie.sk/logo.png">
+
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "RoofingContractor",
+  "name": "Roman Richter — Vaše izolácie",
+  "image": "https://www.vaseizolacie.sk/logo.png",
+  "url": "https://www.vaseizolacie.sk/",
+  "telephone": "+421918509159",
+  "email": "roman.richter@vaseizolacie.sk",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Svätoplukova 1267/2",
+    "addressLocality": "Bánovce nad Bebravou",
+    "addressCountry": "SK"
+  },
+  "areaServed": "Bánovce nad Bebravou a okolie",
+  "priceRange": "€€",
+  "sameAs": []
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg: #F1EEE5;
+    --bg-alt: #E7E1D3;
+    --ink: #2A2822;
+    --ink-soft: #55503F;
+    --moss: #4B5A3E;
+    --moss-dark: #384330;
+    --clay: #9C5B34;
+    --clay-dark: #7E4A29;
+    --slate: #6E7266;
+    --cream: #FBF9F3;
+    --line: rgba(42,40,34,0.14);
+    --radius: 3px;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--ink);
+    font-family:'Work Sans', sans-serif;
+    font-size:17px;
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+    position:relative;
+  }
+  /* subtle paper-grain texture so flat colour fields don't look like a template */
+  body::before{
+    content:'';
+    position:fixed; inset:0; z-index:0; pointer-events:none;
+    opacity:0.5; mix-blend-mode:multiply;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.035 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+  header, main, footer{position:relative; z-index:1;}
+  h1,h2,h3{
+    font-family:'Fraunces', serif;
+    font-weight:600;
+    line-height:1.08;
+    margin:0;
+    color:var(--ink);
+    letter-spacing:-0.01em;
+  }
+  p{margin:0;}
+  a{color:inherit;}
+  img{max-width:100%;display:block;}
+  .wrap{max-width:1120px; margin:0 auto; padding:0 28px;}
+  @media (max-width:640px){ .wrap{padding:0 20px;} }
+
+  /* focus visibility */
+  a:focus-visible, button:focus-visible{outline:2px solid var(--clay); outline-offset:3px;}
+
+  /* ---------- header ---------- */
+  header{
+    position:sticky; top:0; z-index:50;
+    background:rgba(241,238,229,0.92);
+    backdrop-filter:blur(8px);
+    border-bottom:1px solid var(--line);
+  }
+  .header-row{
+    display:flex; align-items:center; justify-content:space-between;
+    padding:14px 0;
+  }
+  .brand{display:flex; align-items:center; gap:12px; text-decoration:none;}
+  .brand img{height:46px; width:46px; border-radius:50%; box-shadow:0 0 0 1px rgba(42,40,34,0.08);}
+  .brand-text{font-family:'Fraunces', serif; font-weight:600; font-size:17px; line-height:1.2; color:var(--ink);}
+  .brand-text span{display:block; font-family:'Work Sans',sans-serif; font-weight:500; font-size:12.5px; color:var(--slate);}
+
+  nav.main-nav{display:flex; align-items:center; gap:30px;}
+  nav.main-nav a{
+    text-decoration:none; font-size:15px; color:var(--ink-soft); font-weight:500;
+    padding:4px 2px; border-bottom:2px solid transparent;
+  }
+  nav.main-nav a:hover{border-bottom-color:var(--clay); color:var(--ink);}
+
+  .call-btn{
+    display:inline-flex; align-items:center; gap:9px;
+    background:var(--moss); color:var(--cream);
+    padding:10px 18px; border-radius:var(--radius);
+    text-decoration:none; font-weight:600; font-size:15px;
+    white-space:nowrap;
+    transition:background .15s ease;
+  }
+  .call-btn:hover{background:var(--moss-dark);}
+  .call-btn svg{width:16px; height:16px; flex-shrink:0;}
+  /* fix: "nav.main-nav a" has higher specificity than ".call-btn" and was
+     silently overriding the text colour, making the number unreadable */
+  nav.main-nav a.call-btn, a.call-btn.desktop-only{color:var(--cream) !important;}
+
+  .menu-toggle{display:none; background:none; border:none; cursor:pointer; padding:6px;}
+  .menu-toggle svg{width:26px; height:26px; color:var(--ink);}
+
+  @media (max-width:860px){
+    nav.main-nav{
+      position:fixed; inset:66px 0 0 0; background:var(--bg);
+      flex-direction:column; align-items:flex-start; gap:0;
+      padding:10px 20px 20px; border-top:1px solid var(--line);
+      transform:translateY(-8px); opacity:0; pointer-events:none;
+      transition:opacity .18s ease, transform .18s ease;
+    }
+    nav.main-nav.open{transform:translateY(0); opacity:1; pointer-events:auto;}
+    nav.main-nav a{width:100%; padding:14px 0; border-bottom:1px solid var(--line); border-bottom-width:1px;}
+    nav.main-nav .call-btn{margin-top:14px;}
+    .menu-toggle{display:block;}
+    .header-actions{display:flex; align-items:center; gap:6px;}
+    .header-actions .call-btn.desktop-only{display:none;}
+  }
+  @media (min-width:861px){
+    .menu-toggle{display:none;}
+  }
+
+  /* ---------- hero ---------- */
+  .hero{position:relative; overflow:hidden; padding:86px 0 70px;}
+  .hero-grid{max-width:640px;}
+
+  .eyebrow-line{
+    display:flex; align-items:center; gap:10px; margin-bottom:22px; color:var(--clay-dark); font-weight:600; font-size:14.5px;
+  }
+  .eyebrow-line .dash{width:26px; height:2px; background:var(--clay-dark);}
+
+  .hero h1{font-size:clamp(34px, 4.6vw, 52px); max-width:12.5ch;}
+  .hero .lede{margin-top:22px; font-size:18.5px; color:var(--ink-soft); max-width:46ch;}
+
+  .hero-actions{display:flex; flex-wrap:wrap; gap:14px; margin-top:32px;}
+  .btn-primary{
+    background:var(--clay); color:var(--cream); padding:14px 24px; border-radius:var(--radius);
+    text-decoration:none; font-weight:600; font-size:15.5px; display:inline-flex; align-items:center; gap:10px;
+    transition:background .15s ease;
+  }
+  .btn-primary:hover{background:var(--clay-dark);}
+  .btn-ghost{
+    padding:14px 22px; border-radius:var(--radius); border:1.5px solid var(--line);
+    text-decoration:none; font-weight:600; font-size:15.5px; color:var(--ink);
+    transition:border-color .15s ease, background .15s ease;
+  }
+  .btn-ghost:hover{border-color:var(--ink-soft); background:rgba(0,0,0,0.03);}
+
+  /* ---------- section shell ---------- */
+  section{padding:86px 0;}
+  .section-alt{background:var(--bg-alt);}
+  .section-head{max-width:640px; margin-bottom:52px;}
+  .kicker{color:var(--clay-dark); font-weight:600; font-size:14px; margin-bottom:14px; display:block;}
+  .section-head h2{font-size:clamp(28px,3.4vw,38px);}
+  .section-head p{margin-top:16px; color:var(--ink-soft); font-size:17px;}
+
+  /* ---------- services (layered rows) ---------- */
+  .layer-list{display:flex; flex-direction:column;}
+  .layer-row{
+    display:grid; grid-template-columns:58px 1fr; gap:26px;
+    padding:32px 0; border-top:1px solid var(--line);
+    position:relative;
+    transition:padding-left .2s ease;
+  }
+  .layer-list .layer-row:last-child{border-bottom:1px solid var(--line);}
+  .layer-row:hover{padding-left:6px;}
+  .layer-row .idx{
+    font-family:'Fraunces', serif; font-weight:500; font-size:26px;
+    color:var(--clay-dark); opacity:.62; line-height:1; padding-top:3px;
+    font-variant-numeric:oldstyle-nums;
+  }
+  .layer-row h3{font-size:20.5px; font-weight:600; margin-bottom:8px;}
+  .layer-row p{color:var(--ink-soft); font-size:15.8px; max-width:60ch;}
+  .layer-row-content{display:flex; flex-direction:column;}
+  @media (max-width:640px){
+    .layer-row{grid-template-columns:34px 1fr; gap:16px; padding:24px 0;}
+    .layer-row .idx{font-size:21px;}
+  }
+
+  /* ---------- about / timeline ---------- */
+  .about-grid{display:grid; grid-template-columns:0.85fr 1.15fr; gap:64px; align-items:start;}
+  @media (max-width:900px){ .about-grid{grid-template-columns:1fr; gap:44px;} }
+  .about-copy p{color:var(--ink-soft); font-size:16.5px; margin-bottom:18px;}
+  .about-copy p:last-child{margin-bottom:0;}
+
+  .about-highlights{list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:14px;}
+  .about-highlights li{
+    position:relative; padding-left:28px; color:var(--ink-soft); font-size:15.3px; font-weight:500;
+  }
+  .about-highlights li::before{
+    content:''; position:absolute; left:0; top:5px; width:16px; height:16px; border-radius:50%;
+    background:var(--moss); opacity:.14;
+  }
+  .about-highlights li::after{
+    content:''; position:absolute; left:5px; top:9px; width:7px; height:4px;
+    border-left:2px solid var(--moss-dark); border-bottom:2px solid var(--moss-dark);
+    transform:rotate(-45deg);
+  }
+
+  /* ---------- portfolio gallery ---------- */
+  .portfolio-grid{
+    display:grid; grid-template-columns:1.3fr 1fr;
+    grid-template-rows:260px 260px; /* fixed row heights so % heights below resolve correctly */
+    gap:14px;
+    margin-bottom:60px;
+  }
+  .portfolio-item{
+    position:relative; overflow:hidden; border-radius:var(--radius);
+    background:var(--line);
+    display:block; height:100%;
+  }
+  .portfolio-item img{
+    width:100%; height:100%; object-fit:cover; display:block;
+    transition:transform .5s ease;
+  }
+  .portfolio-item:hover img{transform:scale(1.04);}
+  .portfolio-item .cap{
+    position:absolute; left:0; right:0; bottom:0; padding:16px 18px 14px;
+    background:linear-gradient(to top, rgba(20,19,15,0.72), rgba(20,19,15,0));
+    color:var(--cream);
+    z-index:2;
+  }
+  .portfolio-item .cap b{display:block; font-family:'Fraunces',serif; font-weight:600; font-size:15.5px;}
+  .portfolio-item .cap span{font-size:12.5px; color:rgba(251,249,243,0.78);}
+  .portfolio-item.tall{grid-row:1 / 3;}
+  .portfolio-grid-single{
+    grid-template-columns:1fr;
+    grid-template-rows:auto;
+  }
+  .portfolio-item.feature{height:420px;}
+  @media (max-width:760px){
+    .portfolio-grid{
+      grid-template-columns:1fr;
+      grid-template-rows:220px 220px 220px;
+    }
+    .portfolio-item.tall{grid-row:auto;}
+    .portfolio-item.feature{height:260px;}
+  }
+
+  /* ---------- work / project types ---------- */
+  .work-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:2px; background:var(--line); border:1px solid var(--line);}
+  @media (max-width:760px){ .work-grid{grid-template-columns:repeat(2,1fr);} }
+  @media (max-width:480px){ .work-grid{grid-template-columns:1fr;} }
+  .work-cell{background:var(--cream); padding:34px 28px; min-height:150px; display:flex; flex-direction:column; justify-content:flex-end;}
+  .work-cell h3{font-size:17.5px; font-weight:600; margin-bottom:6px;}
+  .work-cell p{font-size:14.3px; color:var(--slate);}
+
+  /* ---------- materials strip ---------- */
+  .materials{display:flex; flex-wrap:wrap; gap:12px; margin-top:36px;}
+  .materials span{
+    border:1.5px solid var(--line); border-radius:30px; padding:9px 18px; font-size:14px; font-weight:500; color:var(--ink-soft);
+  }
+
+  /* ---------- certificates ---------- */
+  .cert-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:20px;}
+  @media (max-width:760px){ .cert-grid{grid-template-columns:1fr;} }
+  .cert-card{
+    background:var(--cream); border:1px solid var(--line); border-radius:6px;
+    padding:32px 26px; display:flex; flex-direction:column; align-items:flex-start; gap:16px;
+    transition:border-color .15s ease, transform .15s ease;
+  }
+  .cert-card:hover{border-color:var(--clay); transform:translateY(-2px);}
+  .cert-ic{width:34px; height:34px; color:var(--clay-dark); flex-shrink:0;}
+  .cert-card span{font-family:'Fraunces',serif; font-weight:600; font-size:16.5px; color:var(--ink); line-height:1.35;}
+
+  /* ---------- contact ---------- */
+  .contact-grid{display:grid; grid-template-columns:1fr 1fr; gap:64px; align-items:start;}
+  @media (max-width:900px){ .contact-grid{grid-template-columns:1fr; gap:44px;} }
+  .contact-card{background:var(--cream); border:1px solid var(--line); border-radius:6px; padding:36px;}
+  .contact-line{display:flex; align-items:flex-start; gap:16px; padding:16px 0; border-bottom:1px solid var(--line);}
+  .contact-line:last-child{border-bottom:none;}
+  .contact-line .ic{width:22px; height:22px; color:var(--clay-dark); flex-shrink:0; margin-top:2px;}
+  .contact-line a, .contact-line span.val{font-weight:600; font-size:16.5px; text-decoration:none;}
+  .contact-line a:hover{color:var(--clay-dark);}
+  .contact-line .lbl{display:block; font-size:12.5px; color:var(--slate); margin-bottom:3px; font-weight:500;}
+
+  .form-field{margin-bottom:18px;}
+  .form-field label{display:block; font-size:13.5px; font-weight:600; margin-bottom:7px; color:var(--ink-soft);}
+  .form-field input, .form-field textarea{
+    width:100%; border:1.5px solid var(--line); background:var(--bg); border-radius:var(--radius);
+    padding:12px 14px; font-family:'Work Sans',sans-serif; font-size:15.5px; color:var(--ink);
+  }
+  .form-field textarea{resize:vertical; min-height:100px;}
+  .form-field input:focus, .form-field textarea:focus{outline:none; border-color:var(--moss);}
+  .form-check{display:flex; align-items:flex-start; gap:10px; margin-bottom:18px;}
+  .form-check input{margin-top:4px; flex-shrink:0; width:16px; height:16px; accent-color:var(--moss);}
+  .form-check label{font-size:13px; color:var(--ink-soft); line-height:1.45;}
+  .form-check a{color:var(--clay-dark); font-weight:600; text-decoration:underline;}
+  .form-submit{
+    width:100%; background:var(--moss); color:var(--cream); border:none; padding:14px; border-radius:var(--radius);
+    font-family:'Work Sans',sans-serif; font-weight:600; font-size:15.5px; cursor:pointer; transition:background .15s ease;
+  }
+  .form-submit:hover{background:var(--moss-dark);}
+  .form-note{font-size:12.8px; color:var(--slate); margin-top:12px; text-align:center;}
+
+  /* ---------- footer ---------- */
+  footer{border-top:1px solid var(--line); padding:36px 0;}
+  .foot-row{display:flex; justify-content:space-between; align-items:center; gap:20px; flex-wrap:wrap;}
+  .foot-brand{display:flex; align-items:center; gap:12px;}
+  .foot-brand img{height:32px; width:32px; border-radius:50%;}
+  .foot-brand span{font-size:13.5px; color:var(--slate);}
+  footer .foot-links{display:flex; gap:22px;}
+  footer .foot-links a{font-size:13.5px; color:var(--slate); text-decoration:none;}
+  footer .foot-links a:hover{color:var(--ink);}
+
+  /* ---------- GDPR modal ---------- */
+  .modal-overlay{
+    position:fixed; inset:0; z-index:200; background:rgba(42,40,34,0.45);
+    display:flex; align-items:center; justify-content:center; padding:20px;
+  }
+  .modal-overlay[hidden]{display:none;}
+  .modal-box{
+    background:var(--cream); border-radius:6px; max-width:560px; width:100%;
+    padding:36px; position:relative; max-height:82vh; overflow-y:auto;
+    box-shadow:0 20px 60px rgba(42,40,34,0.25);
+  }
+  .modal-box h3{font-size:22px; margin-bottom:16px;}
+  .modal-box p{color:var(--ink-soft); font-size:15px; margin-bottom:14px;}
+  .modal-box p:last-child{margin-bottom:0;}
+  .modal-box a{color:var(--clay-dark); font-weight:600;}
+  .modal-close{
+    position:absolute; top:16px; right:16px; background:none; border:none; cursor:pointer;
+    font-size:26px; line-height:1; color:var(--slate); padding:4px 8px;
+  }
+  .modal-close:hover{color:var(--ink);}
+
+  /* ---------- cookie bar ---------- */
+  .cookie-bar{
+    position:fixed; left:20px; right:20px; bottom:20px; z-index:190;
+    max-width:560px; margin:0 auto;
+    background:var(--ink); color:var(--bg);
+    border-radius:6px; padding:20px 22px;
+    display:flex; align-items:center; gap:18px; flex-wrap:wrap;
+    box-shadow:0 14px 40px rgba(42,40,34,0.3);
+  }
+  .cookie-bar[hidden]{display:none;}
+  .cookie-bar p{font-size:13.5px; color:rgba(241,238,229,0.85); flex:1 1 220px; line-height:1.5;}
+  .cookie-bar a{color:var(--bg); text-decoration:underline;}
+  .cookie-btn{
+    border:none; cursor:pointer; padding:10px 18px; border-radius:4px;
+    font-family:'Work Sans',sans-serif; font-weight:600; font-size:14px;
+  }
+  .cookie-btn.primary{background:var(--clay); color:var(--cream);}
+  .cookie-btn.primary:hover{background:var(--clay-dark);}
+
+  @media (prefers-reduced-motion: reduce){
+    html{scroll-behavior:auto;}
+    *{transition:none !important;}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap header-row">
+    <a href="#top" class="brand">
+      <img src="logo.png" alt="Roman Richter — Vaše izolácie, logo">
+      <span class="brand-text">Vaše izolácie<span>Roman Richter</span></span>
+    </a>
+    <div class="header-actions">
+      <nav class="main-nav" id="mainNav">
+        <a href="#sluzby">Služby</a>
+        <a href="#o-nas">O nás</a>
+        <a href="#realizacie">Realizácie</a>
+        <a href="#certifikaty">Certifikáty</a>
+        <a href="#kontakt">Kontakt</a>
+        <a href="tel:+421918509159" class="call-btn">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          +421 918 509 159
+        </a>
+      </nav>
+      <a href="tel:+421918509159" class="call-btn desktop-only" style="display:none;">Volať</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Otvoriť menu" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ================= HERO ================= -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <div class="eyebrow-line"><span class="dash"></span>Hydroizolácie a zateplenie striech</div>
+        <h1>Vaša strecha si zaslúži strop, cez ktorý nič nepretečie.</h1>
+        <p class="lede">Ploché strechy, zelené strechy, terasy, balkóny a spodné stavby — riešime izoláciu tak, aby ste na ňu ďalších pár desiatok rokov nemuseli myslieť.</p>
+        <div class="hero-actions">
+          <a href="tel:+421918509159" class="btn-primary">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="17" height="17"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            +421 918 509 159
+          </a>
+          <a href="#kontakt" class="btn-ghost">Nezáväzne poslať dopyt</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SLUŽBY ================= -->
+  <section id="sluzby" class="section-alt">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="kicker">Čo robíme</span>
+        <h2>Izolácie tam, kde voda hľadá cestu dnu.</h2>
+        <p>Od strechy paneláku po základovú dosku rodinného domu — pracujeme s materiálmi a technikami, ktoré si vyberáme podľa konštrukcie, nie podľa toho, čo je práve po ruke.</p>
+      </div>
+
+      <div class="layer-list">
+
+        <div class="layer-row">
+          <div class="idx">01</div>
+          <div class="layer-row-content">
+            <h3>Hydroizolácie plochých striech</h3>
+            <p>PVC fólie, modifikované asfaltové pásy — mechanicky kotvené aj lepené riešenia pre paneláky, priemyselné objekty aj rodinné domy.</p>
+          </div>
+        </div>
+
+        <div class="layer-row">
+          <div class="idx">02</div>
+          <div class="layer-row-content">
+            <h3>Zelené a vegetačné strechy</h3>
+            <p>Skladba od hydroizolácie s ochranou proti prerastaniu koreňov, vhodná pre strešné záhrady aj extenzívnu zeleň.</p>
+          </div>
+        </div>
+
+        <div class="layer-row">
+          <div class="idx">03</div>
+          <div class="layer-row-content">
+            <h3>Terasy a balkóny</h3>
+            <p>Izolácia pod dlažbu aj pod dreveným roštom, s dôrazom na detaily pri vpustiach, prahoch a atikách — presne tam, kde to najčastejšie tečie.</p>
+          </div>
+        </div>
+
+        <div class="layer-row">
+          <div class="idx">04</div>
+          <div class="layer-row-content">
+            <h3>Spodné stavby a základové dosky</h3>
+            <p>Ochrana proti zemnej vlhkosti aj tlakovej vode — pivnice, základy a podzemné konštrukcie zaizolované už pri hrubej stavbe.</p>
+          </div>
+        </div>
+
+        <div class="layer-row">
+          <div class="idx">05</div>
+          <div class="layer-row-content">
+            <h3>Chemická a ropná odolnosť</h3>
+            <p>Izolácie s odolnosťou proti tlakovej vode, chemickým a ropným látkam — pre parkoviská, podzemné garáže a prevádzky s náročnejším zaťažením.</p>
+          </div>
+        </div>
+
+        <div class="layer-row">
+          <div class="idx">06</div>
+          <div class="layer-row-content">
+            <h3>Renovácie panelákov a bytoviek</h3>
+            <p>Kompletná obnova strešného plášťa vrátane zateplenia strechy — riešime aj rozsiahlejšie realizácie pre bytové domy a správcovské spoločnosti.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="materials">
+        <span>PVC fólie</span>
+        <span>Modifikované asfaltové pásy</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= O NÁS ================= -->
+  <section id="o-nas">
+    <div class="wrap about-grid">
+      <div>
+        <span class="kicker">O nás</span>
+        <h2 style="font-size:clamp(26px,3vw,34px); margin-bottom:22px;">Roman Richter — spoľahlivá izolácia bez kompromisov.</h2>
+        <ul class="about-highlights">
+          <li>Priama komunikácia bez sprostredkovateľov</li>
+          <li>Návrh skladby na mieru pre konkrétnu strechu</li>
+          <li>Zodpovednosť za odovzdané prevedenie</li>
+        </ul>
+      </div>
+      <div class="about-copy">
+        <p>Pracujeme priamo, bez sprostredkovateľov — od obhliadky cez návrh skladby až po realizáciu. Vďaka tomu vieme presne, aký materiál a postup sa hodí na konkrétnu strechu, terasu alebo základovú dosku, a stojíme si za tým, čo odovzdáme.</p>
+        <p>Realizácie od rodinných domov po paneláky, bytovky, parkoviská a podzemné garáže — princíp správne uloženej skladby ostáva rovnaký, bez ohľadu na veľkosť objektu.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= REALIZÁCIE / TYPY OBJEKTOV ================= -->
+  <section id="realizacie" class="section-alt">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="kicker">Pre koho pracujeme</span>
+        <h2>Od rodinného domu po celý panelák.</h2>
+        <p>Veľkosť objektu nerozhoduje o kvalite prevedenia — princíp správne uloženej skladby ostáva rovnaký.</p>
+      </div>
+
+      <div class="portfolio-grid portfolio-grid-single">
+        <a class="portfolio-item feature" href="img/stk-stefanova.jpg" target="_blank" rel="noopener">
+          <img src="img/stk-stefanova.jpg" loading="lazy" alt="Hydroizolácia plochej strechy — STK Štefanová">
+          <div class="cap"><b>STK Štefanová</b></div>
+        </a>
+      </div>
+
+      <div class="work-grid">
+        <div class="work-cell"><h3>Rodinné domy</h3><p>Ploché strechy, terasy a základy</p></div>
+        <div class="work-cell"><h3>Paneláky a bytovky</h3><p>Kompletná obnova strešného plášťa</p></div>
+        <div class="work-cell"><h3>Podzemné garáže</h3><p>Izolácia proti tlakovej vode</p></div>
+        <div class="work-cell"><h3>Parkoviská</h3><p>Odolnosť proti chemickým a ropným látkam</p></div>
+        <div class="work-cell"><h3>Vegetačné strechy</h3><p>Strešné záhrady a extenzívna zeleň</p></div>
+        <div class="work-cell"><h3>Priemyselné objekty</h3><p>Veľkoplošné mechanicky kotvené fólie</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CERTIFIKÁTY ================= -->
+  <section id="certifikaty">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="kicker">Kvalita a dôvera</span>
+        <h2>Certifikáty a osvedčenia</h2>
+        <p>Pri realizáciách dbáme na dodržiavanie technologických postupov a bezpečnosti práce. Nižšie nájdete certifikáty a osvedčenia potvrdzujúce našu odbornosť.</p>
+      </div>
+      <div class="cert-grid">
+        <div class="cert-card">
+          <svg class="cert-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2h-2"/><rect x="8" y="1" width="8" height="6" rx="1"/><path d="M9 13l2 2 4-4"/></svg>
+          <span>Certifikát odbornej spôsobilosti</span>
+        </div>
+        <div class="cert-card">
+          <svg class="cert-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M9 13.5 7 22l5-3 5 3-2-8.5"/></svg>
+          <span>Osvedčenie o preškolení aplikátora</span>
+        </div>
+        <div class="cert-card">
+          <svg class="cert-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 3 6v6c0 5 4 8.5 9 10 5-1.5 9-5 9-10V6l-9-4Z"/><path d="M9 12l2 2 4-4"/></svg>
+          <span>Bezpečnosť práce vo výškach</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= KONTAKT ================= -->
+  <section id="kontakt">
+    <div class="wrap contact-grid">
+      <div>
+        <span class="kicker">Kontakt</span>
+        <h2 style="font-size:clamp(26px,3vw,34px); margin-bottom:18px;">Ozvite sa — obhliadku vieme dohodnúť rýchlo.</h2>
+        <p style="color:var(--ink-soft); font-size:16.5px; margin-bottom:30px;">Najrýchlejšie sa dovoláte priamo na mobil. Napíšte aj mailom, ak vám viac vyhovuje poslať fotky strechy alebo pôdorys.</p>
+
+        <div class="contact-card">
+          <div class="contact-line">
+            <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <div><span class="lbl">Telefón</span><a href="tel:+421918509159">+421 918 509 159</a></div>
+          </div>
+          <div class="contact-line">
+            <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v16H4z" opacity="0"/><path d="M22 6l-10 7L2 6"/><rect x="2" y="4" width="20" height="16" rx="2"/></svg>
+            <div><span class="lbl">E-mail</span><a href="mailto:roman.richter@vaseizolacie.sk">roman.richter@vaseizolacie.sk</a></div>
+          </div>
+          <div class="contact-line">
+            <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 6-9 12-9 12S3 16 3 10a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <div><span class="lbl">Adresa</span><span class="val">Svätoplukova 1267/2, Bánovce nad Bebravou</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <form id="contactForm" class="contact-card" onsubmit="return false;">
+          <div class="form-field">
+            <label for="cf-name">Meno</label>
+            <input id="cf-name" type="text" required placeholder="Vaše meno">
+          </div>
+          <div class="form-field">
+            <label for="cf-contact">Telefón alebo e-mail</label>
+            <input id="cf-contact" type="text" required placeholder="Ako sa vám máme ozvať">
+          </div>
+          <div class="form-field">
+            <label for="cf-msg">Čo potrebujete zaizolovať</label>
+            <textarea id="cf-msg" required placeholder="Napr. plochá strecha nad garážou, cca 80 m², preteká pri atike…"></textarea>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" id="cf-gdpr" required>
+            <label for="cf-gdpr">Súhlasím so spracovaním mojich osobných údajov za účelom vybavenia dopytu — viac v <a href="#gdpr" id="gdprLinkForm">ochrane osobných údajov</a>.</label>
+          </div>
+          <button type="submit" class="form-submit" id="cf-submit">Odoslať dopyt e-mailom</button>
+          <p class="form-note">Otvorí sa váš e-mailový klient s predvyplnenou správou na roman.richter@vaseizolacie.sk</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap foot-row">
+    <div class="foot-brand">
+      <img src="logo.png" alt="">
+      <span>© <span id="year"></span> Roman Richter — Vaše izolácie.</span>
+    </div>
+    <div class="foot-links">
+      <a href="tel:+421918509159">+421 918 509 159</a>
+      <a href="mailto:roman.richter@vaseizolacie.sk">roman.richter@vaseizolacie.sk</a>
+      <a href="#gdpr" id="gdprLinkFooter">Ochrana osobných údajov</a>
+    </div>
+  </div>
+</footer>
+
+<!-- ================= GDPR / OCHRANA OSOBNÝCH ÚDAJOV — modal ================= -->
+<div class="modal-overlay" id="gdprOverlay" role="dialog" aria-modal="true" aria-labelledby="gdprTitle" hidden>
+  <div class="modal-box">
+    <button class="modal-close" id="gdprClose" aria-label="Zavrieť">&times;</button>
+    <h3 id="gdprTitle">Ochrana osobných údajov</h3>
+    <p>Prevádzkovateľom osobných údajov je Roman Richter — Vaše izolácie, Svätoplukova 1267/2, Bánovce nad Bebravou. Kontaktný formulár spracúva meno, telefón alebo e-mail a text správy výlučne za účelom vybavenia vášho dopytu a spätnej väzby.</p>
+    <p>Údaje neposkytujeme tretím stranám okrem prípadov vyžadovaných zákonom a uchovávame ich len po dobu nevyhnutnú na vybavenie dopytu a prípadnú realizáciu zákazky. Kedykoľvek máte právo požiadať o výmaz, opravu alebo prehľad svojich údajov — napíšte na <a href="mailto:roman.richter@vaseizolacie.sk">roman.richter@vaseizolacie.sk</a>.</p>
+    <p>Stránka používa iba technické cookies nevyhnutné pre jej fungovanie. Žiadne marketingové ani analytické cookies tretích strán sa bez vášho súhlasu nenačítavajú.</p>
+  </div>
+</div>
+
+<!-- ================= COOKIE LIŠTA ================= -->
+<div class="cookie-bar" id="cookieBar" hidden>
+  <p>Táto stránka používa iba nevyhnutné technické cookies pre svoje fungovanie. Viac v <a href="#gdpr" id="gdprLinkCookie">ochrane osobných údajov</a>.</p>
+  <div class="cookie-actions">
+    <button id="cookieAccept" class="cookie-btn primary">Rozumiem</button>
+  </div>
+</div>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  const toggle = document.getElementById('menuToggle');
+  const nav = document.getElementById('mainNav');
+  toggle.addEventListener('click', () => {
+    const isOpen = nav.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+  });
+  nav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+    nav.classList.remove('open');
+    toggle.setAttribute('aria-expanded', 'false');
+  }));
+
+  const form = document.getElementById('contactForm');
+  form.addEventListener('submit', () => {
+    const name = document.getElementById('cf-name').value.trim();
+    const contact = document.getElementById('cf-contact').value.trim();
+    const msg = document.getElementById('cf-msg').value.trim();
+    const subject = encodeURIComponent('Dopyt z webu — ' + name);
+    const body = encodeURIComponent(
+      'Meno: ' + name + '\n' +
+      'Kontakt: ' + contact + '\n\n' +
+      'Správa:\n' + msg
+    );
+    window.location.href = 'mailto:roman.richter@vaseizolacie.sk?subject=' + subject + '&body=' + body;
+  });
+
+  // ---- GDPR modal ----
+  const gdprOverlay = document.getElementById('gdprOverlay');
+  const openGdpr = (e) => { if(e) e.preventDefault(); gdprOverlay.hidden = false; };
+  [document.getElementById('gdprLinkForm'), document.getElementById('gdprLinkFooter'), document.getElementById('gdprLinkCookie')]
+    .filter(Boolean)
+    .forEach(el => el.addEventListener('click', openGdpr));
+  document.getElementById('gdprClose').addEventListener('click', () => gdprOverlay.hidden = true);
+  gdprOverlay.addEventListener('click', (e) => { if(e.target === gdprOverlay) gdprOverlay.hidden = true; });
+
+  // ---- Cookie bar ----
+  const cookieBar = document.getElementById('cookieBar');
+  if(!localStorage.getItem('cookieConsent')){
+    cookieBar.hidden = false;
+  }
+  document.getElementById('cookieAccept').addEventListener('click', () => {
+    localStorage.setItem('cookieConsent', '1');
+    cookieBar.hidden = true;
+  });
+</script>
+
+</body>
+</html>
